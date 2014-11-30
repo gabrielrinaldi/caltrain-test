@@ -11,6 +11,7 @@
 		C0901BA3196925A4005FE9F8 /* JPBX.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0901BA1196925A4005FE9F8 /* JPBX.xcdatamodeld */; };
 		C0901BA5196925A4005FE9F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0901BA4196925A4005FE9F8 /* Images.xcassets */; };
 		C0901BB1196925A4005FE9F8 /* JPBXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0901BB0196925A4005FE9F8 /* JPBXTests.swift */; };
+		C0901BBB1969267E005FE9F8 /* CaltrainAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0901BBA1969267E005FE9F8 /* CaltrainAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		C0901BAA196925A4005FE9F8 /* JPBXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPBXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0901BAF196925A4005FE9F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0901BB0196925A4005FE9F8 /* JPBXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPBXTests.swift; sourceTree = "<group>"; };
+		C0901BBA1969267E005FE9F8 /* CaltrainAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaltrainAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				C0901BA4196925A4005FE9F8 /* Images.xcassets */,
 				C0901BA1196925A4005FE9F8 /* JPBX.xcdatamodeld */,
 				C0901B9D196925A4005FE9F8 /* Supporting Files */,
+				C0901BBA1969267E005FE9F8 /* CaltrainAPI.swift */,
 			);
 			path = JPBX;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				TargetAttributes = {
 					C0901B99196925A3005FE9F8 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = DCFUXK7B3L;
 					};
 					C0901BA9196925A4005FE9F8 = {
 						CreatedOnToolsVersion = 6.0;
@@ -205,6 +209,7 @@
 			files = (
 				C0901BA0196925A4005FE9F8 /* AppDelegate.swift in Sources */,
 				C0901BA3196925A4005FE9F8 /* JPBX.xcdatamodeld in Sources */,
+				C0901BBB1969267E005FE9F8 /* CaltrainAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +314,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = JPBX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -320,6 +326,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = JPBX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
